@@ -46,7 +46,9 @@ greeting('21:00')            | Good evening!          | 13
 greeting('2100')             | Good evening!          | 14
 
 """
+
 #endregion debai
+
 
 #region bailam
 def greeting(hour_str):
@@ -62,12 +64,12 @@ def greeting(hour_str):
     hour = hour + 12
   if 0 <= hour < 12:
     return 'Good morning!'
-  elif 12 <=hour < 18:
+  elif hour < 18:
     return 'Good afternoon!'
   else:
     return 'Good evening!'
-  
 
-if __name__=='__main__':
+
+if __name__ == '__main__':
   pass
 #endregion bailam
