@@ -64,7 +64,7 @@ def greeting(hour_str):
     hour = hour + 12
   if 0 <= hour < 12:
     return 'Good morning!'
-  elif hour < 18:
+  elif 12 <= hour < 18:
     return 'Good afternoon!'
   else:
     return 'Good evening!'
